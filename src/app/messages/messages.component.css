@@ -1,0 +1,61 @@
+/* Messages Section */
+.messages-container {
+  padding: 20px;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  z-index: 1000;
+}
+
+.messages-container h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #5c7d8a;
+  padding: 1.2rem;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.messages-container button {
+  background-color: #8e8f90;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.messages-container .clear:hover {
+  background-color: #3f525c;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.messages-container .message {
+  font-size: 1rem;
+  color: #333;
+  padding: 1.2rem;
+  border-bottom: 1px solid #e6e6e6;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+}
+
+.messages-container .message:last-child {
+  border-bottom: none;
+}

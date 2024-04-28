@@ -1,0 +1,55 @@
+/* DashboardComponent's private CSS styles */
+
+h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; /* Added a modern font */
+  color: #333; /* Changed the color to a darker shade */
+  text-transform: uppercase; /* Added text transformation for a stylish look */
+  letter-spacing: 2px; /* Added letter spacing for better readability */
+}
+
+.heroes-menu {
+  padding: 0;
+  margin: auto;
+  max-width: 1200px; /* Increased the max-width for larger screens */
+  /* Flexbox */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Changed the justification to center */
+}
+
+a {
+  background-color: #5c7d8a; /* Changed the background color to a more vibrant shade */
+  border-radius: 4px; /* Increased the border radius for a smoother look */
+  padding: 1.2rem; /* Increased the padding for more spacing */
+  font-size: 1.4rem; /* Increased the font size for better readability */
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  min-width: 80px; /* Increased the minimum width for better spacing */
+  margin: 1rem; /* Increased the margin for better spacing */
+  width: calc(16% - 2rem); /* Adjusted the width calculation */
+  box-sizing: border-box;
+  /* Flexbox */
+  flex: 0 1 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow for depth */
+  transition: all 0.3s ease; /* Added a transition for smooth hover effects */
+}
+
+@media (max-width: 768px) {
+  a {
+    width: calc(25% - 2rem); /* Adjusted the width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  a {
+    width: calc(33.33% - 2rem); /* Adjusted the width for even smaller screens */
+  }
+}
+
+a:hover {
+  background-color: #3f525c; /* Changed the hover background color */
+  transform: translateY(-3px); /* Added a subtle transform on hover for a raised effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased the box shadow on hover */
+}

@@ -1,0 +1,54 @@
+/* HeroDetailComponent's private CSS styles */
+
+label {
+  color: #333; /* Changed the label color to a darker shade for better contrast */
+  font-family: 'Montserrat', sans-serif; /* Added a modern font */
+  font-weight: bold;
+  font-size: 1.1rem; /* Increased the font size for better readability */
+  letter-spacing: 0.5px; /* Added letter spacing for a more refined look */
+}
+
+input {
+  font-size: 1em;
+  padding: 0.8rem; /* Increased the padding for better spacing */
+  border: 1px solid #ccc; /* Added a border for a more defined input field */
+  border-radius: 4px; /* Added border radius for a smoother look */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Added a subtle inner shadow for depth */
+  transition: border-color 0.3s ease; /* Added a transition for smooth focus effects */
+}
+
+input:focus {
+  outline: none; /* Removed the default outline on focus */
+  border-color: #5c7d8a; /* Changed the border color on focus for a more vibrant effect */
+  box-shadow: 0 0 5px rgba(92, 125, 138, 0.5); /* Added a subtle glow effect on focus */
+}
+
+button {
+  margin-top: 20px;
+  background-color: #5c7d8a; /* Changed the background color to a more vibrant shade */
+  color: #fff; /* Changed the text color to white for better contrast */
+  padding: 1rem 2rem; /* Increased the padding for better spacing */
+  border: none; /* Removed the border for a cleaner look */
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif; /* Added a modern font */
+  text-transform: uppercase; /* Added text transformation for a more stylish look */
+  letter-spacing: 1px; /* Added letter spacing for better readability */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow for depth */
+  transition: all 0.3s ease; /* Added a transition for smooth hover effects */
+  cursor: pointer; /* Added a cursor pointer for better user experience */
+}
+
+button:hover {
+  background-color: #3f525c; /* Changed the hover background color to a darker shade */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased the box shadow on hover for a more prominent effect */
+  transform: translateY(-2px); /* Added a subtle transform on hover for a raised effect */
+}
+
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: not-allowed; /* Changed the cursor to not-allowed for better user experience */
+  box-shadow: none; /* Removed the box shadow for a disabled button */
+  transform: none; /* Removed the transform for a disabled button */
+}
