@@ -11,15 +11,15 @@
 }
 
 .heroes li:hover {
-  left: .1em;
+  left: 0.1em;
 }
 
 .heroes a {
   color: #333;
   text-decoration: none;
-  background-color: #EEE;
-  margin: .5em;
-  padding: .3em 0;
+  background-color: #eee;
+  margin: 0.5em;
+  padding: 0.3em 0;
   height: 1.6em;
   border-radius: 4px;
   display: block;
@@ -49,6 +49,24 @@
   height: 1.8em;
   min-width: 16px;
   text-align: right;
-  margin-right: .8em;
+  margin-right: 0.8em;
   border-radius: 4px 0 0 4px;
 }
+
+.add-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+  outline: none;
+  border: none;
+  background-color: aquamarine;
+}
+
+ #new-hero {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      width: 200px;
+      /* Add any other styles you want */
+    }
