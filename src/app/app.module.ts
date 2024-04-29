@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HttpClientModule } from '@angular/common/http';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 @NgModule({
   imports: [
@@ -31,6 +32,7 @@ import { HttpClientModule } from '@angular/common/http';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
+    HeroSearchComponent,
   ],
   bootstrap: [AppComponent],
 })

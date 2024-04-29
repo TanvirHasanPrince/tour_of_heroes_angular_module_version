@@ -2,7 +2,7 @@
 
 label {
   color: #333; /* Changed the label color to a darker shade for better contrast */
-  font-family: 'Montserrat', sans-serif; /* Added a modern font */
+  font-family: "Montserrat", sans-serif; /* Added a modern font */
   font-weight: bold;
   font-size: 1.1rem; /* Increased the font size for better readability */
   letter-spacing: 0.5px; /* Added letter spacing for a more refined look */
@@ -24,14 +24,14 @@ input:focus {
 }
 
 button {
-  margin-top: 20px;
+  margin: 20px 20px;
   background-color: #5c7d8a; /* Changed the background color to a more vibrant shade */
   color: #fff; /* Changed the text color to white for better contrast */
   padding: 1rem 2rem; /* Increased the padding for better spacing */
   border: none; /* Removed the border for a cleaner look */
   border-radius: 4px;
   font-size: 1rem;
-  font-family: 'Montserrat', sans-serif; /* Added a modern font */
+  font-family: "Montserrat", sans-serif; /* Added a modern font */
   text-transform: uppercase; /* Added text transformation for a more stylish look */
   letter-spacing: 1px; /* Added letter spacing for better readability */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow for depth */
@@ -42,7 +42,9 @@ button {
 button:hover {
   background-color: #3f525c; /* Changed the hover background color to a darker shade */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased the box shadow on hover for a more prominent effect */
-  transform: translateY(-2px); /* Added a subtle transform on hover for a raised effect */
+  transform: translateY(
+    -2px
+  ); /* Added a subtle transform on hover for a raised effect */
 }
 
 button:disabled {
