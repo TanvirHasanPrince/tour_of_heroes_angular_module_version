@@ -5,9 +5,12 @@
   padding: 0;
   width: 15em;
 }
+
 .heroes li {
   position: relative;
   cursor: pointer;
+  display: flex; /* Added */
+  align-items: center; /* Added */
 }
 
 .heroes li:hover {
@@ -62,11 +65,10 @@
   background-color: aquamarine;
 }
 
- #new-hero {
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 16px;
-      width: 200px;
-      /* Add any other styles you want */
-    }
+#new-hero {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 200px;
+}
